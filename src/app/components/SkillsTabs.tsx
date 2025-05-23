@@ -1,49 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-
-type SkillsMap = {
-  [category: string]: string[];
-};
-
-const skills: SkillsMap = {
-  Backend: [
-    'Java',
-    'Spring Boot',
-    'Microservices',
-    'Spring Data JPA',
-    'API Gateway',
-    'Design Patterns',
-  ],
-  Frontend: [
-    'React.js',
-    'Next.js (basic)',
-    'HTML',
-    'CSS',
-    'Bootstrap',
-    'Tailwind CSS',
-    'Node.js (basic)',
-  ],
-  Databases: [
-    'PostgreSQL',
-    'MongoDB',
-    'Cassandra',
-    'Neo4j',
-  ],
-  'Cloud & DevOps': [
-    'AWS (S3, SNS, SQS, CloudWatch, EC2)',
-    'Kafka',
-    'Jenkins (CI/CD)',
-    'SonarQube',
-    'SonarCloud',
-  ],
-  'Other Skills': [
-    'Static Code Analysis',
-    'Team Leadership',
-    'Mentoring',
-    'Exploring AI (GitHub Copilot)',
-  ],
-};
+import { skills } from '../data/skills';
 
 const tabList = Object.keys(skills);
 

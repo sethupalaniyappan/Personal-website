@@ -1,9 +1,9 @@
-import SkillsTabs from "../components/SkillsTabs";
+import SkillsTabs from "../components/skillstabs";
 
 export default function About() {
     return (
         <section id="about">
-            <div className="flex flex-row justify-center min-h-screen p-8 py-20 gap-16 sm:px-8 font-[family-name:var(--font-geist-sans)]">
+            <div className="flex flex-row justify-center min-h-screen p-8 py-24 gap-16 sm:px-8 font-[family-name:var(--font-geist-sans)]">
                 <div className="flex flex-col gap-8">
                     <div className="flex flex-col items-center justify-center">
                         <div className="flex flex-col items-center gap-2 pb-4 text-zinc-800 dark:text-zinc-100">
@@ -17,7 +17,7 @@ export default function About() {
                     <div className="flex flex-row gap-10">
                         <div className="flex flex-col w-1/2 text-base text-zinc-600 dark:text-zinc-400 text-justify gap-4">
                             <p className="">
-                                I’m <b className="text-zinc-700 dark:text-zinc-300">Sethu Palaniyappan</b>, Technology Lead and Full Stack Developer with expertise in Java, Spring Boot, microservices, and cloud solutions.
+                                I’m <b className="text-zinc-700 dark:text-zinc-300">Sethu Palaniyappan Subramanian</b>, Technology Lead and Full Stack Developer with expertise in Java, Spring Boot, microservices, and cloud solutions.
                             </p>
                             <p>
                                 Skilled in architecting scalable systems, mentoring teams, and building modern web applications using React, Next.js, and Tailwind CSS.
@@ -33,7 +33,7 @@ export default function About() {
                             </p>
                         </div>
                         <div className="flex flex-col w-1/2">
-                            <div>
+                            <div className="text-xl font-bold text-zinc-800 dark:text-zinc-100">
                                 <span>My Skills</span>
                             </div>
                             <div>

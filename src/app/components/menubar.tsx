@@ -4,11 +4,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
+import menuItems from "../data/menuitems";
 
 
 export default function MenuBar() {
 
-    const menuItems = [{ label: "Home", href: "/" }, { label: "About", href: "/#about" }, { label: "Projects", href: "/#projects" }, { label: "Uses", href: "/#uses" }];
 
     const pathname = usePathname();
     const [theme, setTheme] = useState<string>("light");

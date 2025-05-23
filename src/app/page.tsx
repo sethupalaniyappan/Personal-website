@@ -1,7 +1,7 @@
 import Home from "./home/page";
-import Projects from "./projects/page";
+import Experience from "./experience/page";
 import About from "./about/page";
-import Uses from "./uses/page";
+import Certificates from "./certificates/page";
 
 export default function Index() {
   return (
@@ -10,8 +10,8 @@ export default function Index() {
         <main className="">
           <Home />
           <About />
-          <Projects />
-          <Uses />
+          <Experience />
+          <Certificates />
         </main>
       </div>
     </div>
