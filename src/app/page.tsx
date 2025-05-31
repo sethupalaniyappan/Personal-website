@@ -2,6 +2,7 @@ import Home from "./home/page";
 import Experience from "./experience/page";
 import About from "./about/page";
 import Certificates from "./certificates/page";
+import Footer from "./components/footer";
 
 export default function Index() {
   return (
@@ -13,6 +14,7 @@ export default function Index() {
           <Experience />
           <Certificates />
         </main>
+         <Footer />
       </div>
     </div>
   );
