@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { BsBriefcase, BsDownload } from "react-icons/bs";
 
@@ -7,7 +6,7 @@ export default function Home() {
         <section id="home">
             <div className="flex flex-col items-center justify-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
                 <div className="flex flex-col items-center justify-center gap-4 text-zinc-800 dark:text-zinc-100">
-                    <span className="text-4xl font-bold ">Hi, I'm Sethu Palaniyappan.</span>
+                    <span className="text-4xl font-bold ">Hi, I am Sethu Palaniyappan.</span>
                     <span className="text-2xl font-semibold"> Full Stack Engineer • Tech Lead • Cloud and AI Enthusiast</span>
                 </div>
                 <div>

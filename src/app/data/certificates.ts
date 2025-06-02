@@ -3,7 +3,7 @@ export type Certificate = {
   issuer: string;
   issueDate: Date;
   credentialUrl?: string;  // Optional link to certificate or course
-  linkDisplayText?: String | "View Certificate";
+  linkDisplayText?: string | "View Certificate";
 };
 
 export const certificates: Certificate[] = [

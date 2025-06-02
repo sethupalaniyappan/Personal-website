@@ -1,5 +1,3 @@
-'use client'; // Required for client-side components in the App Router
-
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -16,7 +14,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const metadata: Metadata = {
+export const metadata: Metadata = {
   title: "Sethu palaniyappan | Full Stack Engineer",
   description: "Professional portfolio of Sethu Palaniyappan, a Full Stack Engineer with expertise in Java, Spring Boot, React, and cloud technologies."
 };
