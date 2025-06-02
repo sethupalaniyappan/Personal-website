@@ -8,22 +8,52 @@ export type Certificate = {
 
 export const certificates: Certificate[] = [
   {
-    title: "AWS Certified Solutions Architect – Associate",
-    issuer: "Amazon Web Services",
-    issueDate: new Date(2023, 5, 15), // June 15, 2023
-    credentialUrl: "https://www.yourcertificateurl.com/aws",
-    linkDisplayText: "amazon.com",
+    title: "GitHub Copilot for Project Management",
+    issuer: "Microsoft",
+    issueDate: new Date(2025, 4, 7),
+    credentialUrl: "https://www.coursera.org/account/accomplishments/verify/75MCSFPBX5C2",
+    linkDisplayText: "coursera.com"
   },
   {
-    title: "Full Stack Web Development with React",
-    issuer: "Coursera",
-    issueDate: new Date(2022, 10, 10), // November 10, 2022
-    credentialUrl: "https://www.coursera.org/account/accomplishments/yourid",
+    title: "Optimizing Your Workflow with GitHub Copilot and VS Code",
+    issuer: "Microsoft",
+    issueDate: new Date(2025, 4, 10),
+    credentialUrl: "https://www.coursera.org/account/accomplishments/verify/KF8MUR0QFLEA",
+    linkDisplayText: "coursera.com"
   },
   {
-    title: "Microservices with Spring Boot",
-    issuer: "Udemy",
-    issueDate: new Date(2021, 7, 20), // August 20, 2021
+    title: "Prompt Engineering for ChatGPT",
+    issuer: "Vanderbilt University",
+    issueDate: new Date(2025, 4, 7),
+    credentialUrl: "https://www.coursera.org/account/accomplishments/verify/DARTWFC7YREC",
+    linkDisplayText: "coursera.com"
   },
-  // Add more certificates or courses here
+  {
+    title: "Introduction to GitHub Copilot",
+    issuer: "Microsoft",
+    issueDate: new Date(2024, 9, 12),
+    credentialUrl: "https://www.coursera.org/account/accomplishments/verify/C3OBVG1UFOVP",
+    linkDisplayText: "coursera.com"
+  },
+  {
+    title: "Generative AI for Everyone",
+    issuer: "DeepLearning.AI",
+    issueDate: new Date(2024, 8, 20),
+    credentialUrl: "https://www.coursera.org/account/accomplishments/verify/2YN7FMU5QV74",
+    linkDisplayText: "coursera.com"
+  },
+  {
+    title: "Introduction to Gemini for Google Workspace",
+    issuer: "Google Cloud",
+    issueDate: new Date(2024, 8, 22),
+    credentialUrl: "https://www.coursera.org/account/accomplishments/verify/A8DGW24ET4RR",
+    linkDisplayText: "coursera.com"
+  },
+  {
+    title: "Neo4J Certified Professional",
+    issuer: "Neo4J",
+    issueDate: new Date(2018, 9, 15),
+    credentialUrl: "https://graphacademy.neo4j.com/certificates/e65ad335179d2ece3a25a3b97997abf86e94628e3f3694db499074d8fb4a72b1.pdf",
+    linkDisplayText: "Neo4j.com"
+  }
 ];
