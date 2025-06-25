@@ -79,13 +79,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
-<<<<<<< HEAD
-      - name: List directory contents
-        run:  ls && ls -l dist && ls out
-=======
       - name: List directory contents to verify build output
         run:  ls -l out
->>>>>>> b38b1ea (Added base path in next config file.)
 
   # Deployment job
   deploy:
