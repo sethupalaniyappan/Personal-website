@@ -82,7 +82,7 @@ jobs:
         with:
           path: ./dist
       - name: List directory contents
-        run:  ls -l dist
+        run:  ls && ls -l dist && ls out
 
   # Deployment job
   deploy:
